@@ -5,15 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:caesar"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Caesar Cypher" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="input" HorizontalAlignment="Left" Height="200" Margin="50,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300"/>
-        <TextBlock x:Name="label1" HorizontalAlignment="Left" Height="29" Margin="95,89,0,0" Text="input" VerticalAlignment="Top" Width="200" TextAlignment="Center"/>
-        <TextBox x:Name="output" HorizontalAlignment="Right" Height="200" Margin="0,125,50,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300"/>
-        <Button x:Name="button" Content="Encrypt" Click="Button_OnClick" HorizontalAlignment="Left" Height="50" Margin="355,295,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="input" HorizontalAlignment="Left" Height="200" Margin="50,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
+        <TextBlock x:Name="label1" HorizontalAlignment="Left" Height="29" Margin="95,89,0,0" Text="Text to encrypt:" VerticalAlignment="Top" Width="200" TextAlignment="Center"/>
+        <TextBox x:Name="output" HorizontalAlignment="Right" Height="200" Margin="0,125,50,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
+        <Button x:Name="encrypt" Content="Encrypt =>" Click="Encrypt_Button_OnClick" HorizontalAlignment="Left" Height="50" Margin="350,150,0,0" VerticalAlignment="Top" Width="100"/>
         <TextBox x:Name="key" HorizontalAlignment="Left" Height="44" Margin="163,348,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77" IsUndoEnabled="True" MaxLines="1"/>
-        <TextBlock x:Name="label2" HorizontalAlignment="Left" Height="29" Margin="506,89,0,0" Text="output" VerticalAlignment="Top" Width="200" TextAlignment="Center"/>
+        <TextBlock x:Name="label2" HorizontalAlignment="Left" Height="29" Margin="506,89,0,0" Text="Text to decrypt:" VerticalAlignment="Top" Width="200" TextAlignment="Center"/>
         <TextBlock x:Name="label3" HorizontalAlignment="Left" Height="29" Margin="64,359,0,0" Text="key (integer) =" VerticalAlignment="Top" Width="83" TextAlignment="Center"/>
+        <Button x:Name="decrypt" Content="&lt;= Decrypt" Click="Decrypt_Button_OnClick" HorizontalAlignment="Left" Height="50" Margin="350,250,0,0" VerticalAlignment="Top" Width="100"/>
 
     </Grid>
 </Window>

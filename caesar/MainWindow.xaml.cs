@@ -25,7 +25,7 @@ namespace caesar
             InitializeComponent();
         }
 
-        private void Button_OnClick(object sender, RoutedEventArgs e)
+        private void Encrypt_Button_OnClick(object sender, RoutedEventArgs e)
         {
             int x = 0;
             try
@@ -38,6 +38,21 @@ namespace caesar
             }
 
             output.Text = Program.Encrypt(input.Text, x);
+        }
+
+        private void Decrypt_Button_OnClick(object sender, RoutedEventArgs e)
+        {
+            int x = 0;
+            try
+            {
+                x = int.Parse(key.Text);
+            }
+            catch (FormatException exception)
+            {
+                Console.WriteLine(exception);
+            }
+
+            input.Text = Program.Decrypt(output.Text, x);
         }
     }
 }
