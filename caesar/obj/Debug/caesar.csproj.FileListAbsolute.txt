@@ -1,0 +1,15 @@
+C:\Users\namlu\Documents\studia\Projekty\Programowanie Obiektowe\caesar\caesar\bin\Debug\caesar.exe.config
+C:\Users\namlu\Documents\studia\Projekty\Programowanie Obiektowe\caesar\caesar\bin\Debug\caesar.exe
+C:\Users\namlu\Documents\studia\Projekty\Programowanie Obiektowe\caesar\caesar\bin\Debug\caesar.pdb
+C:\Users\namlu\Documents\studia\Projekty\Programowanie Obiektowe\caesar\caesar\obj\Debug\caesar.csprojAssemblyReference.cache
+C:\Users\namlu\Documents\studia\Projekty\Programowanie Obiektowe\caesar\caesar\obj\Debug\MainWindow.g.cs
+C:\Users\namlu\Documents\studia\Projekty\Programowanie Obiektowe\caesar\caesar\obj\Debug\App.g.cs
+C:\Users\namlu\Documents\studia\Projekty\Programowanie Obiektowe\caesar\caesar\obj\Debug\caesar_MarkupCompile.cache
+C:\Users\namlu\Documents\studia\Projekty\Programowanie Obiektowe\caesar\caesar\obj\Debug\caesar_MarkupCompile.lref
+C:\Users\namlu\Documents\studia\Projekty\Programowanie Obiektowe\caesar\caesar\obj\Debug\MainWindow.baml
+C:\Users\namlu\Documents\studia\Projekty\Programowanie Obiektowe\caesar\caesar\obj\Debug\caesar.g.resources
+C:\Users\namlu\Documents\studia\Projekty\Programowanie Obiektowe\caesar\caesar\obj\Debug\caesar.Properties.Resources.resources
+C:\Users\namlu\Documents\studia\Projekty\Programowanie Obiektowe\caesar\caesar\obj\Debug\caesar.csproj.GenerateResource.cache
+C:\Users\namlu\Documents\studia\Projekty\Programowanie Obiektowe\caesar\caesar\obj\Debug\caesar.csproj.CoreCompileInputs.cache
+C:\Users\namlu\Documents\studia\Projekty\Programowanie Obiektowe\caesar\caesar\obj\Debug\caesar.exe
+C:\Users\namlu\Documents\studia\Projekty\Programowanie Obiektowe\caesar\caesar\obj\Debug\caesar.pdb
